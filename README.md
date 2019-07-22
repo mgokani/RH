@@ -1,13 +1,23 @@
 # RH - practice doctest, unittest, tox and pep8
 
-# Execution
+## Requirements
+* python2.7
+* python3.5
+* python3.6
+* python3.7
+* python3.8
+* pycodestyle
+* tox
+* numpy
+
+## Execution
 ```
 $ python print_pairs.py
 [[0 0]
 [0 0]]
 ```
 
-# Run doctest
+## Run doctest
 ```
 $ python print_pairs.py -v
 Trying:
@@ -28,7 +38,7 @@ Test passed.
 [0 0]]
 ```
 
-# Run Unit tests
+## Run Unit tests
 ```
 $ python test_printpairs.py -v
 test_exception (__main__.TestPairs)
@@ -42,7 +52,7 @@ Ran 2 tests in 0.001s
 OK
 ```
 
-# Run tox
+## Run tox
 ```
 $ tox
 py27 installed: DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.,numpy==1.16.4
