@@ -26,8 +26,16 @@ __main__.pairs
 Test passed.
 [[0 0]
 [0 0]]
-root@stretchdev-test:~/Scratchbook/test# python test_printpairs.py
-..
+```
+
+# Run Unit tests
+```
+$ python test_printpairs.py -v
+test_exception (__main__.TestPairs)
+Test if exception is raised when no pairs are found ... ok
+test_negativenumbers (__main__.TestPairs)
+Test a combination of positive and negative numbers ... ok
+
 ----------------------------------------------------------------------
 Ran 2 tests in 0.001s
 
