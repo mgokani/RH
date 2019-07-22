@@ -1,5 +1,4 @@
-"""
-@author: Mirav Gokani
+"""@author: Mirav Gokani
 Program that prints pairs of numbers that sum up to n
 for example: Given list of numbers 4, 1, 3, 5, 2, 6, 8, 7
 Print pairs of numbers whose sum equals 8
@@ -12,6 +11,9 @@ import numpy as np
 
 
 def pairs(arr1, num):
+    """Returns 2D array with pairs of numbers that sum up to num,
+    else raises Exception
+    """
     arr2 = []
     count = 0
     left = 0
