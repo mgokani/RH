@@ -1,10 +1,7 @@
-RH - Practice doctest, unittest, pep8 and tox
-
-$ python print_pairs.py
+root@stretchdev-test:~/Scratchbook/test# python print_pairs.py
 [[0 0]
  [0 0]]
- 
-$ python print_pairs.py -v
+root@stretchdev-test:~/Scratchbook/test# python print_pairs.py -v
 Trying:
     pairs([4, 1, 3, 5, 2, 6, 8, 7], 8)
 Expecting:
@@ -21,15 +18,13 @@ ok
 Test passed.
 [[0 0]
  [0 0]]
- 
-$ python test_printpairs.py
+root@stretchdev-test:~/Scratchbook/test# python test_printpairs.py
 ..
 ----------------------------------------------------------------------
 Ran 2 tests in 0.001s
 
 OK
-
-$ tox
+root@stretchdev-test:~/Scratchbook/test# tox
 py27 installed: DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.,numpy==1.16.4
 py27 run-test-pre: PYTHONHASHSEED='4141867649'
 py27 run-test: commands[0] | python /root/Scratchbook/test/print_pairs.py
@@ -64,3 +59,4 @@ ________________________________________________________________________________
 ERROR:  py36: InterpreterNotFound: python3.6
 ERROR:  py37: InterpreterNotFound: python3.7
 ERROR:  py38: InterpreterNotFound: python3.8
+
