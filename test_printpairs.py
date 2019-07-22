@@ -1,5 +1,4 @@
-"""
-@author: Mirav Gokani
+"""@author: Mirav Gokani
 Unit tests for print_pairs.py
 """
 import print_pairs as ps
