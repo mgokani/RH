@@ -13,8 +13,8 @@
 ## Execution
 ```
 $ python print_pairs.py
-[[0 0]
-[0 0]]
+[[20 50]
+ [30 40]]
 ```
 
 ## Run doctest
@@ -34,8 +34,8 @@ __main__.pairs
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-[[0 0]
-[0 0]]
+[[20 50]
+ [30 40]]
 ```
 
 ## Run Unit tests
@@ -78,8 +78,8 @@ ok
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-[[0 0]
- [0 0]]
+[[20 50]
+ [30 40]]
 py27 run-test: commands[3] | /root/Scratchbook/test/.tox/py27/bin/python /root/Scratchbook/test/test_printpairs.py -v
 test_exception (__main__.TestPairs)
 Test if exception is raised when no pairs are found ... ok
@@ -113,8 +113,8 @@ ok
 1 tests in 2 items.
 1 passed and 0 failed.
 Test passed.
-[[0 0]
- [0 0]]
+[[20 50]
+ [30 40]]
 py35 run-test: commands[3] | /root/Scratchbook/test/.tox/py35/bin/python /root/Scratchbook/test/test_printpairs.py -v
 test_exception (__main__.TestPairs)
 Test if exception is raised when no pairs are found ... ok
