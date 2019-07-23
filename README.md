@@ -138,4 +138,4 @@ ERROR:  py36: InterpreterNotFound: python3.6
 ERROR:  py37: InterpreterNotFound: python3.7
 ERROR:  py38: InterpreterNotFound: python3.8
 ```
-Note: My local environment does not have python 3.6, python3.7 and python3.8 installed and hence there are errors in tox ouput
+Note: My system does not have python 3.6, python3.7 and python3.8 installed and hence there are InterpreterNotFound errors in tox output
