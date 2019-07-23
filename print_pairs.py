@@ -40,6 +40,6 @@ def pairs(arr1, num):
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
-    a = [20, 10, 30, 40]
+    a = [20, 10, 30, 40, 50]
     result = pairs(a, 70)
     print(result)
